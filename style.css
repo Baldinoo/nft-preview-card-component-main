@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  margin-bottom: 15px;
+}
+.img-nft{
+    height: 300px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.img-nft img {
+  width: 100%;
+  max-width: 300px;
+  
+  border-radius: 10px;
+  opacity: 1;
+}
+.img-nft:hover {
+  background: url(images/icon-view.svg) no-repeat center;
+  background-color: hsl(178, 100%, 50%, 0.4);
+  border-radius: 10px;
+}
+.img-nft img:hover{
+    opacity: 50%;
+}
+.text-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+.titulo {
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.titulo:hover{
+    color:hsl(178, 100%, 50%);
+}
+.text-content {
+  color: hsl(215, 51%, 70%);
+  font-weight: 600;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.valor {
+  display: flex;
+  color: hsl(178, 100%, 50%);
+  font-size: 13px;
+  gap: 10px;
+  align-items: center;
+  font-weight: 600;
+}
+.valor p {
+  width: 76px;
+  
+}
+.tempo {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  gap: 5px;
+}
+hr {
+  height: 2px;
+  width: 296px;
+  border-color: gray;
+  opacity: 30%;
+  margin-bottom: 15px;
+}
+.footer-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 3px;
+}
+.footer-card img {
+  width: 100%;
+  max-width: 27px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.footer-card p {
+  width: 263px;
+  color: hsl(215, 51%, 70%);
+  font-size: 13px;
+  font-weight: 600;
+}
+.footer-card span {
+  color: white;
+  cursor: pointer;
+}
+.footer-card span:hover{
+    color: hsl(178, 100%, 50%);
+}
+.attribution {
+  font-size: 15px;
+}
